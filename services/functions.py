@@ -21,9 +21,9 @@ def get_followers(user_id):
     # Dict
     result = [{
         "Id_User": follower.Id_User,
-        "User_mail": follower.User_mail,
-        "Name": follower.Name,
-        "Lastname": follower.Lastname
+        "User_mail": follower.User_mail
+        #"Name": follower.Name,
+        #"Lastname": follower.Lastname
     } for follower in followers]
 
     session.close()
