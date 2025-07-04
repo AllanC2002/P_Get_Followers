@@ -20,7 +20,7 @@ headers = {
     "Authorization": f"Bearer {token}"
 }
 
-# Obtener followers
+# Get followers
 followers_response = requests.get(f"{BASE_URL}/followers", headers=headers)
 
 print("\nFollowers:")
